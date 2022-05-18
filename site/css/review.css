@@ -1,0 +1,235 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: -1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+body {
+	color: #ffffff;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.container {
+	background-color: #18465F;
+	background-size: cover;
+
+	width: 100%;
+	height: 110%;
+	overflow: hidden;
+}
+
+.main {
+	background-size: cover;
+	margin-left: 4%;
+	padding-top: 1%;
+}
+
+
+.logo {
+	float: left;
+	margin-right: 57%;
+}
+
+.content {
+	margin-top: 15%;
+}
+
+.content__title {
+	float: left;
+	height: 80%;
+	font-weight: 700;
+	writing-mode: vertical-rl;
+	font-size: 45px;
+}
+
+.content__services {
+	margin-top: -10%;
+	writing-mode: horizontal-tb;
+}
+
+.services__site {
+	margin-top: -3%;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 36px;
+	writing-mode: horizontal-tb;
+}
+
+.content__img {
+	position: fixed;
+	margin-top: -10%;
+	right: 0;
+}
+
+.services__category {
+	box-sizing: border-box;
+	position: relative;
+	width: 30%;
+	height: 50px;
+	border: 3px solid #ffffff;
+	border-radius: 20px;
+	margin-bottom: 1%;
+	overflow: hidden;
+}
+
+.services__text {
+	position: absolute;
+	left: 2%;
+	font-family: 'Exo 2' sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 36px;
+	letter-spacing: 0.155em;
+
+}
+
+.about {
+	overflow: hidden;
+}
+
+.services__category:hover {
+	height: 300px;
+	border-color: #2D9CCD;
+}
+
+
+
+.footer__email {
+	margin-left: 9%;
+	margin-top: 8%;
+	font-size: 25px;
+
+
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	/* identical to box height */
+
+	letter-spacing: 0.155em;
+
+	color: #FFFFFF;
+
+}
+
+.footer__logo {
+	margin-top: -3%;
+	margin-left: 80%;
+}
+
+hr {
+	margin-top: 5%;
+	border: 2px solid #C4C4C4;
+	position: relative;
+	overflow: visible;
+}
+
+.footer__text {
+	margin-top: 2%;
+	position: absolute;
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	letter-spacing: 0.155em;
+	color: #FFFFFF;
+}
+
+.footer__link {
+	margin-top: 2%;
+	margin-left: 77.5%;
+}
+
+.footer__image {
+	margin-right: 5%;
+}
